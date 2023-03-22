@@ -1,0 +1,91 @@
+body {
+    padding: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+
+
+}
+
+.heading-primary {
+    position: absolute;
+    top: 3rem;
+    left: 15rem;
+    text-transform: (30% 30%);
+    backface-visibility: hidden;
+
+    &--main {
+        color: #ffffff;
+        display: block;
+        font-weight: 400;
+        letter-spacing: 35px;
+        font-size: 60px;
+        text-align: center;
+
+        animation-name: moveInLeft;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+    }
+
+    &--sub {
+        color: #ffffff;
+        display: block;
+        font-weight: 400;
+        letter-spacing: 15px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+
+        animation-name: moveInRight;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+    }
+
+}
+
+.heading-secondary {
+    font-family: sans-serif;
+    font-size: 4.0rem;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all .2;
+    margin-top: 40px;
+
+    &:hover {
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
+        text-shadow: .5rem 1rem 2rem rgba($color: #2a0d63, $alpha: .6);
+    }
+
+}
+
+.heading-intro {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: SF Pro Display,
+        SF Pro Icons,
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
+    text-align: center;
+
+}
+
+.para {
+    font-size: 1.6rem;
+    font-family: 'SamsungOne', arial, sans-serif;
+    text-align: center;
+
+
+
+    &:not(:last-child) {
+        margin-bottom: 5rem;
+        margin-top: 1rem;
+    }
+}

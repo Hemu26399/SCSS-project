@@ -1,0 +1,111 @@
+.feature-box {
+    position: absolute;
+    background-color: rgba($color-white, .8);
+    font-size: 1.5rem;
+    padding: 1px 16px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color: #000000, $alpha: 1.0);
+    margin-top: -43.5rem;
+    margin-left: 2rem;
+    width: 20%;
+    transition: transform .3sec;
+    transform: skewY(7deg);
+
+
+
+
+
+    &__icon {
+        font-size: 3rem;
+        margin-bottom: .2rem;
+    }
+
+    &:hover {
+        transform: translateY(-1.7rem) scale(1.03);
+    }
+
+}
+
+.feature-box-1 {
+    position: absolute;
+    background-color: rgba($color-white, .8);
+    font-size: 1.5rem;
+    padding: 1px 16px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color: #000000, $alpha: 1.0);
+    margin-top: -41rem;
+    margin-left: 24.5rem;
+    width: 20%;
+    transition: transform .3sec;
+    transform: skewY(7deg);
+
+
+
+
+    &__icon {
+        font-size: 3rem;
+        margin-bottom: .2rem;
+    }
+
+    &:hover {
+        transform: translateY(-1.7rem) scale(1.03);
+    }
+
+}
+
+.feature-box-2 {
+    position: absolute;
+    background-color: rgba($color-white, .8);
+    font-size: 1.5rem;
+    padding: 1px 16px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color: #000000, $alpha: 1.0);
+    margin-top: -38.7rem;
+    margin-left: 47rem;
+    width: 20%;
+    transition: transform .3sec;
+    transform: skewY(7deg);
+
+
+
+
+    &__icon {
+        font-size: 3rem;
+        margin-bottom: .2rem;
+    }
+
+    &:hover {
+        transform: translateY(-1.7rem) scale(1.03);
+    }
+
+}
+
+.feature-box-3 {
+    position: absolute;
+    background-color: rgba($color-white, .8);
+    font-size: 1.5rem;
+    padding: 1px 16px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color: #000000, $alpha: 1.0);
+    margin-top: -36rem;
+    margin-left: 69.2rem;
+    width: 20%;
+    transition: transform .3sec;
+    transform: skewY(7deg);
+
+
+
+    &__icon {
+        font-size: 3rem;
+        margin-bottom: .2rem;
+    }
+
+    &:hover {
+        transform: translateY(-1.7rem) scale(1.03);
+    }
+
+}
